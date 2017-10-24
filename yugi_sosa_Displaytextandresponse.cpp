@@ -41,7 +41,7 @@ void main() {
 	cout << "What is pi : ";
 	cin >> piGuess;
 
-	cout << "Give me 3 whole numbers : " << "\n";
+	cout << "Give me 3 whole numbers : " << "\n"; //check to make sure they are integers or just numbers in general???
 	cout << "Number 1 : ";
 	cin >> calc_1;
 	cout << "Number 2 : ";
@@ -50,7 +50,7 @@ void main() {
 	cin >> calc_2;
 
 	cout << "You've missed, " << axes_missed; << "amount of axes. \n";
-	cout << boolalpha << "I think that is << answersMatcheds << " is the best character too. " << endl;
+	cout << boolalpha << "I think that is << answersMatcheds << " is the best character too. " << endl; //i think you messed up your quotation marks
 	cout << "So you think pie is " << piGuess << '\n';
 
 	cout << calc_1 << " + " << calc_2 << " = " << calc_1 + calc_2 << endl;
